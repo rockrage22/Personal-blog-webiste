@@ -1,5 +1,4 @@
-# Personla-blog-webiste
-Udacity Project #2
+# Udacity Project #2
 CRITERIA
 MEETS SPECIFICATIONS
 CSS Separate From HTML
