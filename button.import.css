@@ -1,0 +1,13 @@
+button {
+  background-color: green;
+  border: #grey;
+  color: black;
+  width: 100px;
+  height: 45px;
+  text-decoration: none;
+  font-size: 16px;
+}
+button:hover {
+  color: #00ff00;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.19), 0 6px 20px rgba(0, 0, 0, 0.23);
+}
