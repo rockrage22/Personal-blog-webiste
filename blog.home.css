@@ -1,6 +1,4 @@
-@import url ("button.import.css");
-@import url ("grid.media.css");
-@import url ("blog.css");
+@import "button.import.css grid.media.css blog.css";
 .c {
   text-align: center;
 }
