@@ -1,4 +1,4 @@
-@import "import.css" "blog.css"; 
+@import url ("blog.css"); 
 .i {
   font-style: italic;
 }
