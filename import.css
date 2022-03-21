@@ -25,7 +25,7 @@
     animation-name: breathe;
   }
   .heart:after {
-    background-color: green;
+    background-color: red;
     content: "";
     border-radius: 50%;
     position: absolute;
