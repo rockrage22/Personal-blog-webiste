@@ -1,0 +1,5 @@
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+}
