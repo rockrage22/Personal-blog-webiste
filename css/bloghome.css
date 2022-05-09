@@ -162,22 +162,15 @@ h6 {
   text-align: center;
   padding: 5px;
 }
-@media (min-width: 300px) {
-  .container {
-    display: grid;
-    gap: 10px;
-    background-color: black;
-    padding: 10px;
-  }
-}
-@media (min-width: 400px) {
-  .container {
-    grid-template-areas:
-      "header header"
-      "advert content"
-      "footer footer";
-  }
-}
+
+
+
+
+
+
+
+
+
 .breathe {
     position: fixed;
     padding: 0;
