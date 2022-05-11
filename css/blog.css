@@ -175,10 +175,29 @@ p {
   text-align: center;
   padding: 5px;
 }
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 1160px) {
+@media (min-width: 280px) and (max-width: 410px) {
+  .item1 {
+    grid-row: 1 / 1;
+    grid-column: 1 / 6;
+    color: black;
+  }
+  .item2 {
+    grid-row: 2 / span 20;
+    grid-column: 1 / 5;
+  }
+  time {
+    text-decoration: none;
+    font-size: 15px;
+  }
   .item3 {
-    display: none;
+    grid-row: 2 / span 1;
+    grid-column: 5 / 5;
+  }
+  .item4 {
+    grid-row: 3 / 4;
+    grid-column: 5/ 5;
+  }
+  .item5 {
+    grid-column: 5/ 5;
   }
 }
