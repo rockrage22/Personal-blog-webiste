@@ -1,4 +1,7 @@
-@media (min-width: 100px) {
+@media (min-width: 100px)
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
   .container {
     display: grid;
     gap: 10px;
@@ -6,7 +9,10 @@
     padding: 10px;
   }
 }
-@media (min-width: 100px) {
+@media (min-width: 100px) 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
   .container {
     grid-template-areas:
       "header header"
@@ -15,7 +21,10 @@
   }
 }
 
-@media (min-width: 100px) {
+@media (min-width: 100px)
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
   .container {
     display: grid;
     gap: 10px;
@@ -23,23 +32,14 @@
     padding: 10px;
   }
 }
-@media (min-width: 100px) {
+@media (min-width: 100px)
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3){
   .container {
     grid-template-areas:
       "header header"
       "advert content"
       "footer footer";
   }
-}
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
-
-}
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
-
 }
