@@ -84,34 +84,27 @@ header {
   flex-direction: row;
 }
 .item1 {
-  display: grid;
-
   grid-row: 1 / 1;
   grid-column: 1 / 6;
   color: black;
 }
 .item2 {
-  display: flex;
   grid-row: 2 / span 20;
   grid-column: 1 / 5;
 }
 time {
   text-decoration: none;
   font-size: 15px;
-  display: flex;
 }
 .item3 {
-  display: grid;
   grid-row: 2 / span 1;
   grid-column: 5 / 5;
 }
 .item4 {
-  display: flex;
   grid-row: 3 / 4;
   grid-column: 5/ 5;
 }
 .item5 {
-  display: block;
   grid-column: 5/ 5;
 }
 button {
@@ -174,4 +167,24 @@ p {
   background-color: white;
   text-align: center;
   padding: 5px;
+}
+@media (min-width: 410px) {
+  .item1 {
+    display: grid;
+  }
+  .item2 {
+    display: flex;
+  }
+  time {
+    display: flex;
+  }
+  .item3 {
+    display: grid;
+  }
+  .item4 {
+    
+  }
+  .item5 {
+    display: block;
+  }
 }
