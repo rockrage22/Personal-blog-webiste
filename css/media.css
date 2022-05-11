@@ -1,7 +1,7 @@
-@media (min-width: 100px)
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
+@media (min-width: 100px) 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
   .container {
     display: grid;
     gap: 10px;
@@ -9,10 +9,10 @@
     padding: 10px;
   }
 }
-@media (min-width: 100px) 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
+@media (min-width: 100px)
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
   .container {
     grid-template-areas:
       "header header"
@@ -22,9 +22,9 @@
 }
 
 @media (min-width: 100px)
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
   .container {
     display: grid;
     gap: 10px;
@@ -33,9 +33,9 @@
   }
 }
 @media (min-width: 100px)
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3){
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
   .container {
     grid-template-areas:
       "header header"
