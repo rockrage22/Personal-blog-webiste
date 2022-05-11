@@ -86,7 +86,6 @@ p {
   text-decoration: none;
 }
 .container {
-  display: flex;
   font-size: 1.5em;
   min-height: 200px;
   width: 100%;
@@ -102,7 +101,6 @@ p {
   border-width: 1px;
 }
 .card {
-  display: flex;
   padding: 1em;
   width: 300px;
   height: 100px;
@@ -153,7 +151,6 @@ h6 {
   font-size: 8px;
 }
 .grid-container {
-  display: grid;
   background-color: green;
   padding: 3px;
 }
@@ -161,4 +158,82 @@ h6 {
   background-color: white;
   text-align: center;
   padding: 5px;
+}
+.breathe {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation-duration: 30s;
+    animation-name: divback;
+  }
+
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 400px;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-46deg);
+    animation-duration: 30s;
+    animation-name: breathe;
+  }
+  .heart:after {
+    background-color: green;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart:before {
+    background-color: green;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+
+  @keyframes divback {
+    0% {
+      background: black;
+    }
+  }
+
+  @keyframes breathe {
+    10% {
+      transform: scale(0.3) rotate(+46deg);
+    }
+    10% {
+      transform: scale(0.3) rotate(-46deg);
+    }
+  }
+@media (min-width: 408px) {
+  .container {
+    display: flex;
+  }
+}
+@media (max-width: 408px) {
+   header {
+    display: none;
+  }
+  .grid-container {
+    background-color: white;
+    margin-top: 90px;
+  }
+  .heart {
+    display: none;
+  }
 }
